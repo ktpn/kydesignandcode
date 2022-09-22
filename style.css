@@ -36,6 +36,7 @@ h1, h2, h3, h4, p, ul, .button {
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 100;
 }
 
 .headerleft {
@@ -62,7 +63,6 @@ h1, h2, h3, h4, p, ul, .button {
     color: #ffffff;
     font-family: helvetica, sans-serif, arial;
     font-weight: bold;
-    padding: 100px 20px 50px 20px;
     text-align: left;
     background-attachment: fixed;
     padding: 10%;
