@@ -1,7 +1,3 @@
-body {
-    background-color: rgb(224, 224, 240);
-}
-
 h1, h2 {
     font-weight: bold;
 }
@@ -43,7 +39,6 @@ h1, h2, h3, h4, p, ul, .button {
     display: flex;
     align-content: center;
     align-items: center;
-    gap: 20px;
 }
 .headerright {
     display: flex;
@@ -60,15 +55,16 @@ h1, h2, h3, h4, p, ul, .button {
     background-position: center;
     background-size: cover;
     box-shadow: inset 0 0 0 2000px rgba(144, 144, 144, 0.5);
+    background-attachment: fixed;
+    margin-bottom: -2%;
 }
 
 .topsectiontext {
+    padding: 10%;
     color: #ffffff;
     font-family: helvetica, sans-serif, arial;
     font-weight: bold;
     text-align: left;
-    background-attachment: fixed;
-    padding: 10%;
 }
 
 .toplinks {
@@ -121,6 +117,11 @@ a:hover {
     box-shadow: inset 0 0 0 2000px rgba(189, 188, 188, 0.7);
     background-attachment: fixed;
     color: #ffffff;
+    margin-bottom: -2%;
+}
+
+.content {
+    padding: 5%;
 }
 
 .divider {
@@ -132,9 +133,9 @@ a:hover {
 .box {
     display: flex;
     align-items: center;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: center;
-    gap: 2%;
+    gap: 5%;
 }
 
 .card {
@@ -160,20 +161,11 @@ img {
     margin-right: auto;
 }
 
-.box3 {
-    display: flex;
-    align-items: center;
-    flex-wrap: nowrap;
-    justify-content: center;
-    gap: 5%;
-}
-
 .box3 img {
     width: 500px;
     height: 400px;
     object-fit: fill;
     margin-left: auto;
-    margin-right: auto;
 }
 
 .box3 .card {
@@ -196,17 +188,18 @@ img {
     box-shadow: inset 0 0 0 2000px rgba(144, 144, 144, 0.4);
     background-attachment: fixed;
     color: #ffffff;
+    
 }
 
 .aboutme p {
-    width: 500px;
+    width: 50%;
     margin-left: auto;
     margin-right: auto;
 }
 
 .aboutme2 ul {
     list-style-type: square;
-    padding-left: 80px;
+    padding-left: 25%;
 }
 
 .aboutme2 li {
@@ -215,7 +208,7 @@ img {
 
 .aboutme2 {
     align-items: center;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     gap: 2%;
 }
 
@@ -226,7 +219,7 @@ img {
 }
 
 .aboutme2box p {
-    width: 500px;
+    width: 80%;
 }
 
 .card2 {
@@ -243,4 +236,20 @@ img {
 .reveal.active {
     transform: translateY(0);
     opacity: 1;
+}
+
+main {
+    overflow-x: hidden;
+    display: flex;
+    position: sticky;
+    top: 0;
+}
+
+section {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 1%;
+    padding-left: 1%;
 }
