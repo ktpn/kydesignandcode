@@ -60,6 +60,9 @@ h1, h2, h3, h4, p, ul, .button {
     background-position: center;
     background-size: cover;
     box-shadow: inset 0 0 0 2000px rgba(144, 144, 144, 0.5);
+}
+
+.topsectiontext {
     color: #ffffff;
     font-family: helvetica, sans-serif, arial;
     font-weight: bold;
@@ -118,7 +121,6 @@ a:hover {
     box-shadow: inset 0 0 0 2000px rgba(189, 188, 188, 0.7);
     background-attachment: fixed;
     color: #ffffff;
-    padding: 10%;
 }
 
 .divider {
@@ -194,7 +196,6 @@ img {
     box-shadow: inset 0 0 0 2000px rgba(144, 144, 144, 0.4);
     background-attachment: fixed;
     color: #ffffff;
-    padding: 10%;
 }
 
 .aboutme p {
